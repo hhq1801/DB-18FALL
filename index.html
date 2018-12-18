@@ -1,0 +1,31 @@
+<!doctype html> 
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>图书销售管理信息系统</title>
+	</head>
+	<body>
+	<center>
+	<h1>欢迎来到图书销售管理信息系统!</h1>
+	登录：请选择您的账号类型进行登录。
+	<form action="chooseCharacter_login.php" method="post">
+		<select name="character">
+		<option value="">用户类型</option>
+		<option value="admin">管理员用户</option>
+		<option value="user">普通用户</option>
+		</select><br>
+		<input type="submit" value="选择">
+	</form>
+	<br>
+	注册：请选择您需要注册的帐号类型。
+    <form action="chooseCharacter_register.php" method="post">
+		<select name="character">
+		<option value="">用户类型</option>
+		<option value="admin">管理员用户</option>
+		<option value="user">普通用户</option>
+		</select><br>
+		<input type="submit" value="选择">
+	</form>
+	</center>
+	</body>
+</html>

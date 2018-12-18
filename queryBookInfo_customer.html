@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>图书数据库管理系统</title>
+	</head>
+	<body>
+		<p>请在下方输入相关信息进行查询</p>
+		<center>
+			<p>根据书名模糊查书相关信息</p>
+			<form action="queryBname_customer.php" method="post">
+				书名: <input type="text" name="bookname">
+				<input name="1" type="submit" value="提交">
+				<input name="reset" type="reset" value="重置">
+			</form>
+		</center>
+		<center>
+			<p>根据书名或作者名模糊查相关信息</p>
+			<form action="queryBnameOauthor_customer.php" method="post">
+				书名: <input type="text" name="bookname">
+				作者名: <input type="text" name="authorname">
+				<input name="1" type="submit" value="提交">
+				<input name="reset" type="reset" value="重置">
+			</form>
+		</center>
+		<p><a href="welcome.html">首页</a></p>
+	</body>
+</html>
+
